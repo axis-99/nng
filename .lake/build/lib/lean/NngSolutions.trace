@@ -1,0 +1,31 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["de9faf050da62bda.olean"],
+  "m": false,
+  "i": "5998fef54f3efafe.ilean",
+  "c": "2b054a2dac720062.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/home/maono/Documents/Codes/nng/.lake/packages/Cli/.lake/build/lib/lean:/home/maono/Documents/Codes/nng/.lake/packages/batteries/.lake/build/lib/lean:/home/maono/Documents/Codes/nng/.lake/packages/Qq/.lake/build/lib/lean:/home/maono/Documents/Codes/nng/.lake/packages/aesop/.lake/build/lib/lean:/home/maono/Documents/Codes/nng/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/maono/Documents/Codes/nng/.lake/packages/importGraph/.lake/build/lib/lean:/home/maono/Documents/Codes/nng/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/maono/Documents/Codes/nng/.lake/packages/plausible/.lake/build/lib/lean:/home/maono/Documents/Codes/nng/.lake/packages/mathlib/.lake/build/lib/lean:/home/maono/Documents/Codes/nng/.lake/build/lib/lean /home/maono/.elan/toolchains/leanprover--lean4---v4.30.0-rc1/bin/lean /home/maono/Documents/Codes/nng/NngSolutions.lean -o /home/maono/Documents/Codes/nng/.lake/build/lib/lean/NngSolutions.olean -i /home/maono/Documents/Codes/nng/.lake/build/lib/lean/NngSolutions.ilean -c /home/maono/Documents/Codes/nng/.lake/build/ir/NngSolutions.c --setup /home/maono/Documents/Codes/nng/.lake/build/ir/NngSolutions.setup.json --json",
+   "level": "trace"}],
+ "inputs":
+ [["NngSolutions:deps",
+   [["deps",
+     [["NngSolutions/NngSolutions:extraDep",
+       [["@NngSolutions:extraDep", "00000000000006bb"]]],
+      ["imports", "00000000000006bb"]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.30.0, commit 714601baf118066cbf3f282361339c6d06665b2a",
+   "a22979b798cee25b"],
+  ["/home/maono/Documents/Codes/nng/NngSolutions.lean", "21c42906adea99f5"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: NngSolutions", "6f13105841972003"],
+  ["Package.id?: (some NngSolutions)", "65fb526572a98e38"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "327620a5cace761e"}
