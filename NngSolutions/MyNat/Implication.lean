@@ -11,3 +11,9 @@ example (x y : MyNat) (h: 0 + x = 0 + y + 2) : x = y + 2 := by
 
 example (x y : MyNat) (h1 : x = 37) (h2 : x = 37 -> y = 42) : y = 42 :=
   h2 h1
+
+example (x : MyNat) (h : x + 1 = 4) : x = 3 := by
+  rw [← succ_eq_add_one, four_eq_succ_three] at h
+  injection h
+
+  
