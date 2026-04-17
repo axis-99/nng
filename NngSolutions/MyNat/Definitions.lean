@@ -5,9 +5,11 @@ inductive MyNat where
   | succ : MyNat → MyNat
   deriving Repr
 
-instance : OfNat MyNat 0 := ⟨.zero⟩
-instance : OfNat MyNat 1 := ⟨.succ .zero⟩
-instance : OfNat MyNat 2 := ⟨.succ (.succ .zero)⟩
+def ofNat : Nat → MyNat
+  | 0 => .zero
+  | n + 1 => .succ (ofNat n)
+
+instance (n : Nat) : OfNat MyNat n := ⟨ofNat n⟩
 
 def add : MyNat → MyNat → MyNat
   | a, .zero => a
