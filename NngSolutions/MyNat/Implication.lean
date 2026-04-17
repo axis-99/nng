@@ -16,4 +16,6 @@ example (x : MyNat) (h : x + 1 = 4) : x = 3 := by
   rw [← succ_eq_add_one, four_eq_succ_three] at h
   injection h
 
-  
+example (x : MyNat) : x = 37 -> x = 37 := by
+  intro h
+  exact h
