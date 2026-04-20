@@ -37,4 +37,8 @@ theorem four_eq_succ_three : (4: MyNat) = .succ 3 := rfl
 theorem succ_inj {a b : MyNat} (h : MyNat.succ a = MyNat.succ b) : a = b := by
   injection h
 
+theorem zero_ne_succ (n : MyNat) : MyNat.zero ≠ .succ n := by
+  intro h
+  injection h
+
 end MyNat
